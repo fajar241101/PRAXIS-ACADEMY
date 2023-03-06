@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CDN React -->
+    <!-- 1. Instalasi -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    
+    <title>Learn React</title>
+</head>
+<body>
+    <!-- 2. Membuat wadah/container -->
+    <div id="app"></div>
+
+    <!-- 3. Membuat Komponen -->
+    <script type="text/babel">
+        class Hallo extends React.Component {
+            render() {
+                return <h1>Fajar Ganteng</h1>
+            }
+        }
+
+    // 4. Melakukan render
+        ReactDOM.render(<Hallo/>, document.getElementById('app'));
+    </script>
+</body>
+</html>
