@@ -1,9 +1,9 @@
-// "hello!";
-// document.write("error!");       // tampilan untuk browser
-// console.log("hello, computer!");    // tampilan untuk console
-// alert("hello, human!");         // tampilan untuk browser
-// prompt("What is your name?");   // tampilan untuk browser
-//  console.log("Multiline\n text!");  //tampilan untuk console
+ "hello!";
+ document.write("error!");       // tampilan untuk browser
+console.log("hello, computer!");    // tampilan untuk console
+alert("hello, human!");         // tampilan untuk browser
+prompt("What is your name?");   // tampilan untuk browser
+ console.log("Multiline\n text!");  //tampilan untuk console
 
 // console.log('saya');
 
@@ -17,17 +17,17 @@
 
 // const apakahPrima = (angka) => {
 //     let pembagi = 0;
-    let number = 100;
-    for(let i=2; i <= number; i++){
-      if(number%i == 0)
-        {
-            console.log(i +'bilangan prima');
-        }  else{
-            console.log(i + 'bilangan bukan prima');
+  //   let number = 100;
+  //   for(let i=2; i <= number; i++){
+  //     if(number%i == 0)
+  //       {
+  //           console.log(i +'bilangan prima');
+  //       }  else{
+  //           console.log(i + 'bilangan bukan prima');
 
-        }    
+  //       }    
 
     
-  }
+  // }
 
 //   apakahPrima(2);

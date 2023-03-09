@@ -26,33 +26,33 @@
 // console.log(false && true && false);
 // console.log(true && true && false);
 // console.log(true && true);
-// var tampung = 7;
+// var tampung = 3;
 // if(tampung === 5){
 //     console.log("angka yang ditampung adalah 5!");
 // }
 // else{
 //     console.log("angka yang ditampung bukan 5!");
-//     if(tampung != 5){
+//     if(tampung > 5){
 //         console.log("angka yang ditampung bukan 5, tapi lebih besar dari 5");
 //     }
 //     else{
 //         console.log("angka yang ditampung bukan 5, tapi lebih kecil dari 5");
 //     }
 // }
-// var tampung = 10;
-// // if(tampung == 5){
-// //     console.log("angka yang ditampung adalah 5");
-// // }
-// // else if(tampung < 5){
-// //     console.log("angka yang ditampung bukan 5, tapi lebih kecil dari 5");
-// // }
-// // else{
-// //     console.log("angka yang ditampung bukan 5, tapi lebih besar dari 5");
-// // }
+// var tampung = 4;
+// if(tampung == 5){
+//     console.log("angka yang ditampung adalah 5");
+// }
+// else if(tampung < 5){
+//     console.log("angka yang ditampung bukan 5, tapi lebih kecil dari 5");
+// }
+// else{
+//     console.log("angka yang ditampung bukan 5, tapi lebih besar dari 5");
+// }
 
 // tampung == 5 ? console.log("angka yang ditampung adalah 5") : console.log("angka yang ditampung bukan 5"); 
 
-// var buttonPushed = 0;
+// var buttonPushed = 2;
 // switch (buttonPushed) {
 //     case 1: {console.log('matikan TV'); break;}
 //     case 2: {console.log('turunkan volume'); break;}
@@ -62,10 +62,11 @@
 // }
 
 // var angka = 1;
-// while (angka <= 100) {
-//     console.log('' + angka);
+// while (angka <= 10) {
+//     console.log('angkanya ' + angka);
 //     angka++
 // }
+// console.log(typeof (angka));
 
 // var deret = 5;
 // var jumlah = 1;
@@ -74,11 +75,12 @@
 //     deret--;
 //     console.log('jumlah saat ini' + jumlah);
 // }
-// console.log(1umlah);
+// console.log(jumlah);
 
-// for(var angka = 2; angka <= 100; angka++){
-//     console.log('' + angka);
-//     }
+for(var angka = 2; angka <= 10; angka++){
+    console.log(angka);
+    console.log(`${angka}`);
+    }
 
 // for (let i = 0; i < 10; i+=2) {
 //     console.log('iterasi dengan increment counter 2: ' + i);
@@ -128,7 +130,7 @@
 // console.log(tampilkanAngka(9));
 // console.log(tampilkanAngka());
 
-var fungsiPerkalian = function(angkaPertama, angkaKedua) {
-    return angkaPertama * angkaKedua
-}
-console.log(fungsiPerkalian(3,2));
+// var fungsiPerkalian = function(angkaPertama, angkaKedua) {
+//     return angkaPertama * angkaKedua
+// }
+// console.log(fungsiPerkalian(3,2));
